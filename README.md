@@ -1,3 +1,4 @@
+![fixed2lambdas (1)](https://github.com/yuvalcoren/commit_project/assets/132250761/26d1f440-997e-407b-9912-0ff949d08db7)
 # Serverless Authentication Solution with AWS
 
 This repository contains a serverless solution using various AWS services to authenticate users and log their activities. This README provides a detailed explanation of each component used in the solution.
@@ -80,4 +81,3 @@ The solution comprises of the following components:
 - Deploy the infrastructure using the provided scripts.
 - Navigate to the Cognito user pool to sign up or sign in.
 
-![fixed2lambdas (1)](https://github.com/yuvalcoren/commit_project/assets/132250761/26d1f440-997e-407b-9912-0ff949d08db7)
