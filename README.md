@@ -61,7 +61,7 @@ The solution comprises of the following components:
 
 **Implementation**: After successful token verification, the lambda function writes the user's username and the current timestamp to a DynamoDB table.
 
-### 8. S3 (or similar)
+### 8. S3
 
 **Purpose**: Store user-related files.
 
