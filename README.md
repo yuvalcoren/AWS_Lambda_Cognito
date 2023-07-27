@@ -45,7 +45,7 @@ The solution comprises of the following components:
 
 ### 5. Cognito API Gateway Authorizer
 
-**Purpose**: Securely transports the token in the headers.
+**Purpose**: Securely transports the token in the headers to backend.
 
 **Implementation**: Before any request is processed by the backend, the Cognito API Gateway Authorizer verifies the token provided in the request header. It ensures the token is valid and hasn't been tampered with.
 
@@ -65,13 +65,13 @@ The solution comprises of the following components:
 
 **Purpose**: Store user-related files.
 
-**Implementation**: A file with the user's name as the filename is created. The content of this file is the current date and time. This file is then stored in an S3 bucket or a similar storage solution.
+**Implementation**: A file with the user's name as the filename is created. The content of this file is the current date and time. This file is then stored in an S3 bucket.
 
 ### 9. Parameter Store
 
 **Purpose**: Store parameters to greet the user.
 
-**Implementation**: Parameters like greeting messages or any other user-specific configuration can be stored in the Parameter Store. These parameters can then be fetched and used to personalize the user's experience.
+**Implementation**: Parameters like greeting messages or any other user-specific configuration can be stored in the Parameter Store. These parameters can then be fetched and used to personalize the user's welcoming message.
 
 ## Getting Started
 
